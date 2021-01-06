@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".mak_syafawi_waa"></activity>
+        <activity android:name=".mak_syafawi_baa" />
+        <activity android:name=".mak_syafawi_mim" />
+        <activity android:name=".mak_syafawi_faa" />
+        <activity android:name=".mak_lisani_dzo" />
+        <activity android:name=".mak_lisani_tsa" />
+        <activity android:name=".mak_lisani_djal" />
+        <activity android:name=".mak_lisani_sa" />
+        <activity android:name=".mak_lisani_jha" />
+        <activity android:name=".mak_lisani_so" />
+        <activity android:name=".mak_lisani_daa" />
+        <activity android:name=".mak_lisani_tho" />
+        <activity android:name=".mak_lisani_ta" />
+        <activity android:name=".mak_lisani_ra" />
+        <activity android:name=".mak_lisani_nun" />
+        <activity android:name=".mak_lisani_lam" />
+        <activity android:name=".mak_lisani_dho" />
+        <activity android:name=".mak_lisani_ya" />
+        <activity android:name=".mak_lisani_ja" />
+        <activity android:name=".mak_lisani_sya" />
+        <activity android:name=".mak_lisani_kaf" />
+        <activity android:name=".mak_lisani_qo" />
+        <activity android:name=".mak_halqi_hamzah" />
+        <activity android:name=".mak_halqi_alif" />
+        <activity android:name=".mak_halqi_habesar" />
+        <activity android:name=".mak_halqi_hakecil" />
+        <activity android:name=".mak_halqi_ain" />
+        <activity android:name=".mak_halqi_gho" />
+        <activity android:name=".mak_halqi_kho" />
+        <activity android:name=".t_n_t_idgham_bilagunah" />
+        <activity android:name=".t_n_t_idgham_bigunah" />
+        <activity android:name=".t_h_qalqalahqubra" />
+        <activity android:name=".t_h_qalqalahsugrho" />
+        <activity android:name=".t_h_madlazimmukhoffafharfi" />
+        <activity android:name=".t_h_madlazimmuthaqqalharfi" />
+        <activity android:name=".t_h_madlazimmukhoffafkalimi" />
+        <activity android:name=".t_h_madlazimmuthaqqalkalimi" />
+        <activity android:name=".t_h_madsilahtawilah" />
+        <activity android:name=".t_h_madsilahqasirah" />
+        <activity android:name=".t_h_madfarq" />
+        <activity android:name=".t_h_madaridlissukun" />
+        <activity android:name=".t_h_madiwadh" />
+        <activity android:name=".t_h_madtamkin" />
+        <activity android:name=".t_h_madbadal" />
+        <activity android:name=".t_h_madlin" />
+        <activity android:name=".t_h_madjaizmunfasil" />
+        <activity android:name=".t_h_madwajibmuttasil" />
+        <activity android:name=".t_h_madthobii" />
+        <activity android:name=".t_h_idgham_mutaqaribain" />
+        <activity android:name=".t_h_idgham_mutajanisain" />
+        <activity android:name=".t_h_idgham_mutamasilain" />
+        <activity android:name=".t_m_m_idzharsyafawi" />
+        <activity android:name=".t_m_m_idghammislain" />
+        <activity android:name=".t_m_m_ikhfasyafawi" />
+        <activity android:name=".t_n_t_iqlab" />
+        <activity android:name=".t_n_t_ikhfa" />
+        <activity android:name=".t_n_t_idgham" />
+        <activity android:name=".t_n_t_izhar" />
+        <activity android:name=".taj_tanda_waqof" />
+        <activity android:name=".taj_hukum_qalqalah" />
+        <activity android:name=".taj_hukum_idgham" />
+        <activity android:name=".taj_hukum_mad" />
+        <activity android:name=".taj_mimmati" />
+        <activity android:name=".taj_nunmati_tanwin" />
+        <activity android:name=".iqroo6" />
+        <activity android:name=".iqroo5" />
+        <activity android:name=".iqroo4" />
+        <activity android:name=".iqroo3" />
+        <activity android:name=".iqroo2" />
+        <activity android:name=".iqroo1" />
+        <activity android:name=".t_iqro" />
+        <activity android:name=".exit" />
+        <activity android:name=".informasi" />
+        <activity android:name=".sifat" />
+        <activity android:name=".tajwid" />
+        <activity android:name=".makhroj" />
+        <activity android:name=".tampilan_pertama" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
