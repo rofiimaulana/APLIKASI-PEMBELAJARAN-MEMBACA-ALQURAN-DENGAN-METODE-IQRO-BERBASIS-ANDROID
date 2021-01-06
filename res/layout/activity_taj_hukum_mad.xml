@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".taj_hukum_mad">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip">
+            <!--mad thobii -->
+            <Button
+                android:textColor="@android:color/white"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/madthobii"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:layout_margin="10dp"
+                android:text="Mad Asli / Mad Thob'i" />
+            <!--mad wajib muttasil -->
+            <Button
+                android:textColor="@android:color/white"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/madwajibmuttasil"
+                android:background="@color/colorPrimary"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Mad Wajib Muttasil" />
+            <!--mad ja'iz munfasil -->
+            <Button
+                android:textColor="@android:color/white"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/madjaizmunfasil"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:layout_margin="10dp"
+                android:text="Mad Ja’iz Munfasil" />
+            <!--mad lin -->
+            <Button
+                android:textColor="@android:color/white"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/madlin"
+                android:background="@color/colorPrimary"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Mad Lin"/>
+            <!--mad badal -->
+            <Button
+                android:textColor="@android:color/white"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/madbadal"
+                android:background="@color/colorPrimary"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Mad Badal" />
+            <!--mad tamkin -->
+            <Button
+                android:textColor="@android:color/white"
+                android:background="@color/colorPrimary"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/madtamkin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Mad Tamkin" />
+            <!--mad iwadh -->
+            <Button
+                android:id="@+id/madiwadh"
+                android:background="@color/colorPrimary"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:text="Mad 'iwadh"
+                android:textColor="@android:color/white" />
+            <!--mad arid lissukun -->
+            <Button
+                android:textColor="@android:color/white"
+                android:background="@color/colorPrimary"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/madaridlissukun"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Mad Arid Lissukun" />
+            <!--mad farq -->
+            <Button
+                android:textColor="@android:color/white"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/colorPrimary"
+                android:id="@+id/madfarq"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Mad farq" />
+            <!--mad silah qasirah -->
+            <Button
+                android:textColor="@android:color/white"
+                android:background="@color/colorPrimary"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/madsilahqasirah"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Mad Silah Qasirah" />
+            <!--mad silah tawilah -->
+            <Button
+                android:textColor="@android:color/white"
+                android:background="@color/colorPrimary"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/madsilahtawilah"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Mad Silah Tawilah" />
+            <!--mad mutahaqqal kalimi -->
+            <Button
+                android:textColor="@android:color/white"
+                android:background="@color/colorPrimary"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/madlazimmuthaqqalkalimi"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Mad Lazim Muthaqqal Kalimi" />
+            <!--mad lazim mukhaffaf kalimi -->
+            <Button
+                android:textColor="@android:color/white"
+                android:background="@color/colorPrimary"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/madlazimmukhaffafkalimi"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Mad Lazim Mukhaffaf Kalimi" />
+            <!--mad lazim muthaqqal harfi -->
+            <Button
+                android:textColor="@android:color/white"
+                android:background="@color/colorPrimary"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/madlazimmuthaqqalharfi"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Mad Lazim Muthaqqal Harfi" />
+            <!--mad lazim mukhaffaf harfi -->
+            <Button
+                android:textColor="@android:color/white"
+                android:background="@color/colorPrimary"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/madlazimmukffafharfi"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Mad Lazim Mukhaffaf Harfi" />
+        </LinearLayout>
+</ScrollView>

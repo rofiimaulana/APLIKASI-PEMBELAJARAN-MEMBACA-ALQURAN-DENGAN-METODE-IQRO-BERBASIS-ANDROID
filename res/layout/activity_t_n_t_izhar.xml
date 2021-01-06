@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".t_n_t_izhar">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textStyle="bold"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/white"
+                android:text="    Idzhar" />
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:paddingTop="5dp"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:paddingBottom="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Izhar adalah membaca huruf nun mati dan tanwin dengan jelas dan terang (tanpa dengung) apabila bertemu dengan enam huruf-huruf izhar" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:layout_marginTop="10dp">
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginHorizontal="20dp">
+                <!--baris utama atas -->
+                    <TableRow>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textSize="15dp"
+                            android:text="Huruf Idzhar"
+                            android:background="@color/colorPrimary"
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="15dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="@color/colorPrimary"
+                            android:text="Contoh Nun mati"
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="15dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="@color/colorPrimary"
+                            android:text="Contoh Tanwin"
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
+                    </TableRow>
+                    <!--baris satu -->
+                    <TableRow>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="40dp"
+                            android:text="ا"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="30dp"
+                            android:id="@+id/alif_nunmati"
+                            android:clickable="true"
+                            android:text="مَنْ اَمَنَ"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textSize="30dp"
+                            android:id="@+id/alif_tanwin"
+                            android:clickable="true"
+                            android:text="رَسُوْلٌ اَمِيْنَ"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                    </TableRow>
+                    <!--baris dua -->
+                    <TableRow>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="40dp"
+                            android:text="ح"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="30dp"
+                            android:id="@+id/ha_nunmati"
+                            android:clickable="true"
+                            android:text="عَنْ حَرَامِكَ"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textSize="30dp"
+                            android:id="@+id/ha_tanwin"
+                            android:clickable="true"
+                            android:text="نَارٌ حَامٍيَةٌ"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                    </TableRow>
+                    <!--baris tiga -->
+                    <TableRow>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="40dp"
+                            android:text="خ"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="30dp"
+                            android:id="@+id/kho_nunmati"
+                            android:clickable="true"
+                            android:text="مَنْ خَشِيَ"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textSize="30dp"
+                            android:id="@+id/kho_tanwin"
+                            android:clickable="true"
+                            android:text="ذَرَّةٍ خَبٍيْرٌ"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                    </TableRow>
+                    <!--baris empat -->
+                    <TableRow>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="40dp"
+                            android:text="ع"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="30dp"
+                            android:id="@+id/ain_nunmati"
+                            android:clickable="true"
+                            android:text="مِنْ عِلْمٍ"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textSize="30dp"
+                            android:id="@+id/ain_tanwin"
+                            android:clickable="true"
+                            android:text="سَمٍيْعٌ عَلٍيْمٌ"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                    </TableRow>
+                    <!--baris lima -->
+                    <TableRow>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="40dp"
+                            android:text="غ"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="30dp"
+                            android:id="@+id/ghoin_nunmati"
+                            android:clickable="true"
+                            android:text="مِنْ غِلٍّ"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textSize="30dp"
+                            android:id="@+id/ghoin_tanwin"
+                            android:clickable="true"
+                            android:text="اَجْرٌ غَيْرُ"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                    </TableRow>
+                    <!--baris enam -->
+                    <TableRow>
+                        <TextView
+                            android:layout_width="10dp"
+                            android:layout_height="60dp"
+                            android:layout_weight="1"
+                            android:textSize="40dp"
+                            android:background="@drawable/ha_"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="30dp"
+                            android:id="@+id/habesar_nunmati"
+                            android:clickable="true"
+                            android:text="مِنْ هَادٍ"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textSize="30dp"
+                            android:id="@+id/habesar_tanwin"
+                            android:clickable="true"
+                            android:text="جُرُفٍ هَارٍ"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                    </TableRow>
+                </TableLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="klik contoh nun mati / tanwin untuk mendengarkan suara" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

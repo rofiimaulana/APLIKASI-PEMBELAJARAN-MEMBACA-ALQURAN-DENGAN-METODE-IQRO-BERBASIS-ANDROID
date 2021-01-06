@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mak_lisani_dho">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:textSize="40dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="40dp"
+                android:text="ضَ ضِ ضُ بَضْ ضُوْ ضَنْ ضَنِ ضَضْنَ مِنَ الْمُضْنِ مَضِيْضًا ضَنِضًا" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="#009688"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="10dp">
+                <TextView
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="AUDIO"
+                    android:textAlignment="center" />
+                <LinearLayout
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Play"
+                        android:onClick="play"
+                        tools:ignore="OnClick" />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pause"
+                        android:onClick="pause"
+                        tools:ignore="OnClick"/>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#ffffffff"
+                android:background="@color/colorPrimary"
+                android:padding="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="     Sifat Mutadhadah" />
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="      *Nafas : Al-Jahru yakni jelas, tidak berdesis, nafas tidak mengalir, sehingga suaraya jelas dan bersih " />
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="      *Pengucapan : Ar-Rakhawah yakni lunak / lembut. lemahnya teknanan terhadap makhraj huruf tersebut " />
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="      *Lidah : Al-Isti'la yakni terangkat, maksud nya membunyikan huruf dengan mengangkat pangkal lidah ke langit-langit mulut, sehingga bunyi huruf menjadi lebih tinggi,tebal dan berat" />
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="      *Lidah dengan langit-langit : Al-Itbaq yakni lengket maksudnya pengucapan huruf dalam keadaan bertemunya lidah dengan langit-langit" />
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="      *Kelancaran : Al-Idzlaq yakni Lancar, ujung atau tajam, maksud nya embunyikan huruf dengan ringan dan lancar" />
+            <!--sifat ghoiru muhtadha-->
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#ffffffff"
+                android:background="@color/colorPrimary"
+                android:padding="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="     Sifat Ghairu Mutadhadah" />
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="      *Al-istithalah yakni memanjang maksudnya memanjangkan suara dari tepi awal pangkal lidah sampai ujung lidah. hurus istimewa yakni dha (ض)" />
+            <!--bagian penjelasan-->
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#ffffffff"
+                android:background="@color/colorPrimary"
+                android:padding="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="     Penjelasan" />
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="      &quot;Dho&quot; dibaca dengan menyentuhkan sisi lidah dengan sisi gigi geraham atas, boleh salah satu sisi geraham atas atau keduanya, dho dibaca degan lancar tidak tertahan karena memiliki sifat Al-Idzlaq" />
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="   " />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

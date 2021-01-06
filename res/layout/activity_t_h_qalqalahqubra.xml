@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".t_h_qalqalahqubra">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textStyle="bold"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/white"
+                android:text="    Qalqalah" />
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:paddingTop="2dp"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:paddingBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Qalqalah yakni suara tambahan (pantulan) yang kuat dan jelas yang terjadi pada huruf yang bersukun setelah menekan makhraj pada huruf tersebut, pantulan ini akan terasa lebih kuat dan jelas pada huruf qalqalah yang bertasydid dan dibaca waqaf (berhenti), huruf qalqalah ada lima yaitu : " />
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Abu"
+                android:src="@drawable/huruf_qalqalah" />
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#ffffffff"
+                android:background="@color/colorPrimary"
+                android:padding="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="  Qalqalah Qubra" />
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:layout_marginTop="5dp"
+                android:text="yaitu apabila salah satu daripada huruf qalqalah itu dimatikan karena waqaf atau berhenti. Dalam keadaan ini, qalqalah dilakukan apabila bacaan diwaqafkan tetapi tidak diqalqalahkan apabila bacaan diteruskan.  Contoh : " />
+            <ImageView
+                android:layout_gravity="right"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cth_besar" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@color/colorPrimary"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="10dp">
+                <TextView
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="AUDIO"
+                    android:textAlignment="center" />
+                <LinearLayout
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Play"
+                        android:onClick="play"
+                        tools:ignore="OnClick" />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pause"
+                        android:onClick="pause"
+                        tools:ignore="OnClick"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

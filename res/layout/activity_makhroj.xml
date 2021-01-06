@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".makhroj">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- makhraj halqi -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="#EBEBEB"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#ffffffff"
+                android:background="@color/colorPrimary"
+                android:padding="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="     Makhraj Halqi " />
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:text="Makhraj halqi adalah tempat keluar huruf hijaiyah yang terletak pada kerongkongan/tenggorokan." />
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <!-- button 1 -->
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/halqi_gho"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:text="غ"
+                        android:background="@color/white" />
+                    <!-- button 2 -->
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/halqi_kho"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:text="خ"
+                        android:background="@color/white"
+                        android:layout_marginLeft="10dp"/>
+                    <!--button 3-->
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/halqi_ain"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:text="ع"
+                        android:background="@color/white"
+                        android:layout_marginLeft="10dp"/>
+                    <!--button 4-->
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/halqi_hakecil"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:text="ح"
+                        android:background="@color/white"
+                        android:layout_marginLeft="10dp"/>
+                    <!-- button 5-->
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/halqi_habesar"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:text="ه"
+                        android:background="@color/white"
+                        android:layout_marginLeft="10dp"/>
+                    <!-- button 6-->
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/halqi_alif"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:text="ا"
+                        android:background="@color/white"
+                        android:layout_marginLeft="10dp"/>
+                    <!-- button 7-->
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/halqi_hamzah"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:text="ء"
+                        android:background="@color/white"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+        </LinearLayout>
+        <!-- makhraj lisani -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="#EBEBEB"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#ffffffff"
+                android:background="@color/colorPrimary"
+                android:padding="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="     Makhraj Lisani " />
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:text="Makhraj Lisani adalah Tempat keluarnya huruf hijaiyah yang berasal dari lidah." />
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <!--BUtton 1-->
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/lisani_qo"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:text="ق"
+                        android:background="@color/white" />
+                    <!--button2-->
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/lisani_kaf"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:text="ك"
+                        android:background="@color/white"
+                        android:layout_marginLeft="10dp"/>
+                    <!--button 3-->
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/lisani_sya"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:text="ش"
+                        android:background="@color/white"
+                        android:layout_marginLeft="10dp"/>
+                    <!--button 4-->
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/lisani_ja"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:text="ج"
+                        android:background="@color/white"
+                        android:layout_marginLeft="10dp"/>
+                    <!-- button 5-->
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/lisani_ya"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:text="ي"
+                        android:background="@color/white"
+                        android:layout_marginLeft="10dp"/>
+                    <!-- button 6-->
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/lisani_dho"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:text="ض"
+                        android:background="@color/white"
+                        android:layout_marginLeft="10dp"/>
+                    <!-- button 7-->
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/lisani_lam"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:text="ل"
+                        android:background="@color/white"
+                        android:layout_marginLeft="10dp"/>
+                    <!-- button 8-->
+                    <Button
+                        android:id="@+id/lisani_nun"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="10dp"
+                        android:background="@color/white"
+                        android:text="ن"
+                        android:textAppearance="?android:textAppearanceLarge" />
+                    <!-- button 9-->
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/lisani_ra"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:text="ر"
+                        android:background="@color/white"
+                        android:layout_marginLeft="10dp"/>
+                    <!-- button 10-->
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/lisani_ta"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:text="ت"
+                        android:background="@color/white"
+                        android:layout_marginLeft="10dp"/>
+                    <!-- button 11-->
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/lisani_tho"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:text="ط"
+                        android:background="@color/white"
+                        android:layout_marginLeft="10dp"/>
+                    <!-- button 12-->
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/lisani_daa"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:text="د"
+                        android:background="@color/white"
+                        android:layout_marginLeft="10dp"/>
+                    <!-- button 13-->
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/lisani_so"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:text="ص"
+                        android:background="@color/white"
+                        android:layout_marginLeft="10dp"/>
+                    <!-- button 14-->
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/lisani_jha"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:text="ز"
+                        android:background="@color/white"
+                        android:layout_marginLeft="10dp"/>
+                    <!-- button 15-->
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/lisani_sa"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:text="س"
+                        android:background="@color/white"
+                        android:layout_marginLeft="10dp"/>
+                    <!-- button 16-->
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/lisani_djal"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:text="ذ"
+                        android:background="@color/white"
+                        android:layout_marginLeft="10dp"/>
+                    <!-- button 17-->
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/lisani_tsa"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:text="ث"
+                        android:background="@color/white"
+                        android:layout_marginLeft="10dp"/>
+                    <!-- button 18-->
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/lisani_dzo"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:text="ظ"
+                        android:background="@color/white"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+        </LinearLayout>
+        <!-- makhraj syafawi -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="#EBEBEB"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#ffffffff"
+                android:background="@color/colorPrimary"
+                android:padding="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="     Makhraj Syafawi " />
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:text="Makhraj Syafawi adalah tempat keluar huruf yang terletak pada kerongkongan/tenggorokan." />
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/syafawi_faa"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:text="ف"
+                        android:background="@color/white" />
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/syafawi_mim"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:text="م"
+                        android:background="@color/white"
+                        android:layout_marginLeft="10dp"/>
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/syafawi_baa"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:text="ب"
+                        android:background="@color/white"
+                        android:layout_marginLeft="10dp"/>
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/syafawi_waa"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:text="و"
+                        android:background="@color/white"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+        </LinearLayout>
+        <!-- makhraj jaufi -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="#EBEBEB"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#ffffffff"
+                android:background="@color/colorPrimary"
+                android:padding="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="     Makhraj Jaufi " />
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:text="Makhraj Jaufi adalah makhraj untuk huruf-huruf yang termasuk Mad(panjang) seperti Alif Mad,Waw Mad, dan Ya Mad." />
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/jaufi_alif"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:text="ا"
+                        android:background="@color/white"
+                        android:layout_marginLeft="10dp"/>
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/jaufi_waa"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:text="و"
+                        android:background="@color/white"
+                        android:layout_marginLeft="10dp"/>
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/jaufi_ya"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:text="ي"
+                        android:background="@color/white"
+                        android:layout_marginLeft="10dp"/>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+        </LinearLayout>
+        <!-- makhraj khaisyum -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="#EBEBEB"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#ffffffff"
+                android:background="@color/colorPrimary"
+                android:padding="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="     Makhraj Khaisyum " />
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:text="Makhraj Khaisyum adalah makhraj yang berada di pangkal hidung bagian dalam sehingga huruf dibaca dengung." />
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/khaisyum_mim"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:text="م"
+                        android:background="@color/white"
+                        android:layout_marginLeft="10dp"/>
+
+                    <Button
+                        android:id="@+id/khaisyum_nun"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="10dp"
+                        android:background="@color/white"
+                        android:text="ن"
+                        android:textAppearance="?android:textAppearanceLarge" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".tajwid">
+    <!-- button1.Nunmati/tanwin -->
+    <Button
+        android:id="@+id/taj1"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Nun Mati/Tanwin"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+    <!-- button2.Mim Mati -->
+    <Button
+        android:id="@+id/taj2"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="80dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Mim Mati"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+    <!-- button3.Hukum Mad -->
+    <Button
+        android:id="@+id/taj3"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="140dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Hukum Mad"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+    <!-- button4.Hukum Idgham -->
+    <Button
+        android:id="@+id/taj4"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="200dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Hukum Idgham"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+    <!-- button5.Hukum Qolqolah' -->
+    <Button
+        android:id="@+id/taj5"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="260dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Qalqalah'"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+    <!-- button6.Tanda Waqof -->
+    <Button
+        android:id="@+id/taj6"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="320dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Tanda Waqof"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+
+
+</RelativeLayout>

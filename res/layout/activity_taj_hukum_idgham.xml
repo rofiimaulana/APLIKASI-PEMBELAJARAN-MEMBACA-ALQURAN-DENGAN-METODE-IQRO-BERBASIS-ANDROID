@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    tools:context=".taj_hukum_idgham">
+
+    <!-- button1.Nunmati/Ikhfa syafawi -->
+    <Button
+        android:id="@+id/idghammutamasilain"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="idgham mutamasilain"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+    <!-- button2.Idgham mislain-->
+    <Button
+        android:id="@+id/idghammutajanisain"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="80dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Idgham mutajanisain"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+    <!-- button3.Idzhar syafawi -->
+    <Button
+        android:id="@+id/idghammutaqaribain"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="140dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Idgham mutaqaribain"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+</RelativeLayout>

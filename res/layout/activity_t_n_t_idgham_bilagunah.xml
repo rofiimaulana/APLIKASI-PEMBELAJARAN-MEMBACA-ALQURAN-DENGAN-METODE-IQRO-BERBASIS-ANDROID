@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".t_n_t_idgham_bilagunah">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textStyle="bold"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/white"
+                android:text="    Idgham Bilagunah" />
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:paddingTop="5dp"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:paddingBottom="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Idgham Bi La Ghunnah yaitu memasukan/meleburkan nun mati dan tanwin (idgham) tanpa di sertai dengan dengung.  Huruf idgham bi la ghunnah ada dua " />
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@color/white"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginHorizontal="20dp">
+                    <!--baris awal atas -->
+                    <TableRow>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textSize="15dp"
+                            android:text="Huruf"
+                            android:background="@color/colorPrimary"
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="15dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="@color/colorPrimary"
+                            android:text="Contoh Nun mati"
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="15dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="@color/colorPrimary"
+                            android:text="Contoh Tanwin"
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
+                    </TableRow>
+                    <!--baris satu -->
+                    <TableRow>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="40dp"
+                            android:text="ل"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="30dp"
+                            android:text="مِنْ لَدُنْكَ"
+                            android:gravity="center"
+                            android:id="@+id/lam_nunmati"
+                            android:clickable="true"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textSize="30dp"
+                            android:id="@+id/lam_tanwin"
+                            android:clickable="true"
+                            android:text="هُدًى لِلْمُتَّقِيْنَ"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                    </TableRow>
+                    <!--baris dua -->
+                    <TableRow>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="40dp"
+                            android:text="ر"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="30dp"
+                            android:text="مِنْ رَبِّكَ"
+                            android:gravity="center"
+                            android:id="@+id/ra_nunmati"
+                            android:clickable="true"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textSize="30dp"
+                            android:id="@+id/ra_tanwin"
+                            android:clickable="true"
+                            android:text="خَيْرٌ رَازِقِيْنَ"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

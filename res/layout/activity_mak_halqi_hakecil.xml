@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mak_halqi_hakecil">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="5dp"
+                android:text="حَ حِ حُ بَحْ حُوْ حَنْ حَنِ حَحْنَ مِنَ الْمَحْنِ مَحِيْحًا حَنِحًا"
+                android:textColor="@color/black"
+                android:textSize="40dp" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="#009688"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="10dp">
+                <TextView
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="AUDIO"
+                    android:textAlignment="center" />
+                <LinearLayout
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Play"
+                        android:onClick="play"
+                        tools:ignore="OnClick" />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pause"
+                        android:onClick="pause"
+                        tools:ignore="OnClick"/>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#ffffffff"
+                android:background="@color/colorPrimary"
+                android:padding="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="     Sifat Mutadhadah" />
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="      *Nafas : Al-Hams yakni samar maksudnya huruf dengan berdesis dan nafas terlepas, sehingga bunyi huruf terdengar agak samar " />
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="      *Pengucapan : Ar-Rakhawah yakni lunak / lembut. lemahnya teknanan terhadap makhraj huruf tersebut " />
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="      *Lidah : Al-Istifal yakni turun, maksud nya membunyikan huruf dengan menurunkan pangkal lidah ke dasar lidah, sehingga bunyi huruf menjadi rendah, tipis, ringan" />
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="      *Lidah dengan langit-langit : Al-infitah yakni terpisah, sedangkan menurut istilah adalah pengucapan hurud disertai dengan menjauhnya lidah dari langit-langit" />
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="      *Kelancaran : Al-Idzlaq yakni Lancar, ujung atau tajam, maksud nya embunyikan huruf dengan ringan dan lancar" />
+            <!--bagian penjelasan-->
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#ffffffff"
+                android:background="@color/colorPrimary"
+                android:padding="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="     Penjelasan" />
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="      &quot;ha&quot; dikeluarkan dari tengah-tengah tenggorokan" />
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="   " />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

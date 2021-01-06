@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".iqroo1">
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:background="@drawable/iqro_satu_hal_satu"
+                android:layout_width="400dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:background="@drawable/iqro_satu_hal_dua"
+                android:layout_width="400dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:background="@drawable/iqro_satu_hal_tiga"
+                android:layout_width="400dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:background="@drawable/iqro_satu_hal_empat"
+                android:layout_width="400dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:background="@drawable/iqro_satu_hal_lima"
+                android:layout_width="400dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:background="@drawable/iqro_satu_hal_enam"
+                android:layout_width="400dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:background="@drawable/iqro_satu_hal_tujuh"
+                android:layout_width="400dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:background="@drawable/iqro_satu_hal_delapan"
+                android:layout_width="400dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:background="@drawable/iqro_satu_hal_sembilan"
+                android:layout_width="400dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:background="@drawable/iqro_satu_hal_sepuluh"
+                android:layout_width="400dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:background="@drawable/iqro_satu_hal_sebelas"
+                android:layout_width="400dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:background="@drawable/iqro_satu_hal_duabelas"
+                android:layout_width="400dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:background="@drawable/iqro_satu_hal_tigabelas"
+                android:layout_width="400dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:background="@drawable/iqro_satu_hal_empatbelas"
+                android:layout_width="400dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:background="@drawable/iqro_satu_hal_limabelas"
+                android:layout_marginLeft="20dp"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:background="@drawable/iqro_satu_hal_enambelas"
+                android:layout_marginLeft="20dp"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </HorizontalScrollView>
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    tools:context=".taj_nunmati_tanwin">
+
+    <!-- button1.Nunmati/Idahar -->
+    <Button
+        android:id="@+id/izhar"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Idzhar"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+    <!-- button2.Idgham -->
+    <Button
+        android:id="@+id/idgham"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="80dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Idgham"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+    <!-- button3.Ikhfa -->
+    <Button
+        android:id="@+id/ikhfa"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="140dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Ikhfa"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+    <!-- button4.Iqlab -->
+    <Button
+        android:id="@+id/iqlab"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="200dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Iqlab"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+</RelativeLayout>
